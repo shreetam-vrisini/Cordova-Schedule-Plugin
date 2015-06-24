@@ -1,6 +1,6 @@
 {
   "name": "cordova-schedule-plugin",
-  "version": "1.0.01",
+  "version": "1.0.1",
   "description": "Cordova Schedule Plugin",
   "cordova": {
     "id": "cordova-schedule-plugin",
