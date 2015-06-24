@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'adduser' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose adduser before first PUT { name: 'shreetam',
+5 verbose adduser   salt: 'XXXXX',
+5 verbose adduser   password_sha: 'XXXXX',
+5 verbose adduser   email: 'shreetam.chatterjee@vrisini.com',
+5 verbose adduser   _id: 'org.couchdb.user:shreetam',
+5 verbose adduser   type: 'user',
+5 verbose adduser   roles: [],
+5 verbose adduser   date: '2015-06-24T08:27:52.507Z' }
+6 verbose url raw /-/user/org.couchdb.user:shreetam
+7 verbose url resolving [ 'https://registry.npmjs.org/',
+7 verbose url resolving   './-/user/org.couchdb.user:shreetam' ]
+8 verbose url resolved https://registry.npmjs.org/-/user/org.couchdb.user:shreetam
+9 info trying registry request attempt 1 at 13:57:52
+10 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:shreetam
+11 http 400 https://registry.npmjs.org/-/user/org.couchdb.user:shreetam
+12 verbose adduser back [ [Error: Unknown error while authenticating : -/user/org.couchdb.user:shreetam],
+12 verbose adduser   { ok: false, error: 'Unknown error while authenticating' },
+12 verbose adduser   '{"ok":false,"error":"Unknown error while authenticating"}' ]
+13 error Error: Unknown error while authenticating : -/user/org.couchdb.user:shreetam
+13 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:272:14)
+13 error     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\index.js:148:22)
+13 error     at Request.EventEmitter.emit (events.js:98:17)
+13 error     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\index.js:876:14)
+13 error     at Request.EventEmitter.emit (events.js:117:20)
+13 error     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\index.js:827:12)
+13 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+13 error     at _stream_readable.js:910:16
+13 error     at process._tickCallback (node.js:415:13)
+14 error If you need help, you may report this log at:
+14 error     <http://github.com/isaacs/npm/issues>
+14 error or email it to:
+14 error     <npm-@googlegroups.com>
+15 error System Windows_NT 6.2.9200
+16 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "adduser"
+17 error cwd C:\Users\Rajdeep Das\Documents\GitHub\Cordova-Schedule-Plugin
+18 error node -v v0.10.13
+19 error npm -v 1.3.2
+20 verbose exit [ 1, true ]

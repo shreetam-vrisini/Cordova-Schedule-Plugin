@@ -1,22 +1,22 @@
 {
-  "name": "cordova-plugin-schedule",
-  "version": "1.0.30",
+  "name": "cordova-plugin-schedule-new",
+  "version": "1.0.01",
   "description": "Cordova Schedule Plugin",
   "cordova": {
-    "id": "cordova-plugin-schedule",
+    "id": "cordova-plugin-schedule-new",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anupam-chatterjee/cordova-plugin-schedule.git"
+    "url": "https://github.com/shreetam-vrisini/Cordova-Schedule-Plugin.git"
   },
   "keywords": [
     "cordova",
     "schedule",
     "cordova-android"
   ],
-  "author": "Anupam Chatterjee",
+  "author": "Shreetam Chatterjee",
   "license": "Apache 2.0"
 }
