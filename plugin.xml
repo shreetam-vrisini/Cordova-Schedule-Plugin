@@ -2,17 +2,17 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-schedule-plugin"
+        id="cordova-plugin-schedule"
         version="1.0.1">
 
     <name>Schedule</name>
 
     <description>A plugin to fetch JSON data to generate notifications for Cordova 3.x.x</description>
-    <repo>https://github.com/shreetam-vrisini/Cordova-Schedule-Plugin.git</repo>
+    <repo>https://github.com/anupam-chatterjee/cordova-plugin-schedule.git</repo>
     <keywords>notification, local notification, JSON data, scheduler, ios, android, windows phone 8, wp8, iOS8</keywords>
     <license>Apache 2.0</license>
 
-    <author>Shreetam Chatterjee</author>
+    <author>Anupam Chatterjee</author>
 
     <js-module src="www/schedule.js" name="Schedule">
         <clobbers target="schedule" />
